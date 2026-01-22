@@ -3,7 +3,7 @@ def Factorial(No):
     Fact = 0
 
     for i in range(1,No+1):
-        Fact = Fact + i
+        Fact = Fact * i
 
     return Fact
 
@@ -17,4 +17,5 @@ def main():
     print("The Factorial of the Numeber is :",Ret)
 
 if __name__ == "__main__":
+
     main()
